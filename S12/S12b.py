@@ -2,7 +2,7 @@ from numpy import kron as ꕕ
 from matplotlib import cm as colm
 import numpy as np
 import matplotlib.pyplot as plt
-plt.rcParams.update({'font.size': 16})
+plt.rcParams.update({'font.size': 20})
 
  
 width= 4.6
@@ -26,7 +26,8 @@ plt.plot(dat4[:,0], dat4[:,2]/dat4[0,1] , c = '#00d2d3', lw = 4, solid_capstyle=
 
 plt.plot(np.arange(0,3000), np.arange(0,3000)* 0 +1, lw = 4, c = 'black')
 plt.xlim(650,1900)
-
+plt.xticks([1000,1500])
+plt.yticks([1,1.5,2, 2.5])
 
 #plt.ylim(0.65,1.35)
 plt.savefig('S12b.pdf') 

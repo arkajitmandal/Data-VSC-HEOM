@@ -2,7 +2,7 @@ from numpy import kron as ꕕ
 from matplotlib import cm as colm
 import numpy as np
 import matplotlib.pyplot as plt
-plt.rcParams.update({'font.size': 16})
+plt.rcParams.update({'font.size': 20})
 
 eV = 1.0 / 27.2114
 cmn1 = 1.0/219474.63

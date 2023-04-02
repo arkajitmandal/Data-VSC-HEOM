@@ -3,7 +3,7 @@ from matplotlib import cm as colm
 import numpy as np
 import matplotlib.pyplot as plt
 
-plt.rcParams.update({'font.size': 16})
+plt.rcParams.update({'font.size': 20})
 width= 4.6
 aspect_ratio= 1.0
 fig_size = (width, width / aspect_ratio)
